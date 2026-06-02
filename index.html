@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Gato Gago</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+
+        <h1>🐾 Gato Gago</h1>
+
+    </div>
+
+    <div class="search-box">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input
+            type="text"
+            placeholder="O que seu pet precisa?">
+
+    </div>
+
+    <div class="header-icons">
+
+        <div class="phone">
+
+            <i class="fa-solid fa-phone"></i>
+
+        </div>
+
+        <div class="favorites">
+
+            <i class="fa-regular fa-heart"></i>
+
+        </div>
+
+        <div id="cart-btn"
+             class="cart">
+
+            <i class="fa-solid fa-bag-shopping"></i>
+
+            <span id="cart-count">0</span>
+
+        </div>
+
+        <div class="login">
+
+            <i class="fa-regular fa-user"></i>
+
+            <div>
+
+                <p>Entrar</p>
+
+                <small>Cadastre-se</small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<nav class="menu">
+
+    <a href="#">Cachorros</a>
+
+    <a href="#">Gatos</a>
+
+    <a href="#">Adoção</a>
+
+    <a href="#">Produtos</a>
+
+    <a href="#">Serviços</a>
+
+    <a href="#">Promoções</a>
+
+</nav>
+
+<section class="promo-bar">
+
+    🎉 Adote um amigo especial e ganhe descontos exclusivos em produtos!
+
+</section>
+
+<section class="banner">
+
+    <div class="banner-content">
+
+        <h2>Adotando diferenças, espalhando amor.</h2>
+
+        <p>
+
+            Conheça animais incríveis que procuram
+            um novo lar cheio de carinho.
+
+        </p>
+
+        <button>
+
+            Quero Adotar
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="services">
+
+    <div class="service-card">
+
+        🚚 Frete Grátis
+
+    </div>
+
+    <div class="service-card">
+
+        💳 Parcelamento
+
+    </div>
+
+    <div class="service-card">
+
+        🏥 Produtos Especiais
+
+    </div>
+
+    <div class="service-card">
+
+        🐾 Adoção Responsável
+
+    </div>
+
+</section>
+
+<section id="produtos">
+
+    <h2>
+
+        Produtos Recomendados
+
+    </h2>
+
+    <div class="products-grid">
+
+        <div class="product-card">
+
+            <img src="https://cdn.awsli.com.br/2500x2500/1226/1226108/produto/173178051/c998ad2866.jpg"
+                 alt="Ração">
+
+            <h3>Ração Premium</h3>
+
+            <p class="price">
+
+                R$ 89,90
+
+            </p>
+
+            <button
+                class="add-cart"
+                data-name="Ração Premium"
+                data-price="89.90">
+
+                Adicionar
+
+            </button>
+
+        </div>
+
+        <div class="product-card">
+
+            <img src="https://m.media-amazon.com/images/I/61owlfy+DSL._AC_SL1500_.jpg"
+                 alt="Cama">
+
+            <h3>Cama Pet</h3>
+
+            <p class="price">
+
+                R$ 129,90
+
+            </p>
+
+            <button
+                class="add-cart"
+                data-name="Cama Pet"
+                data-price="129.90">
+
+                Adicionar
+
+            </button>
+
+        </div>
+
+        <div class="product-card">
+
+            <img src="https://m.media-amazon.com/images/I/514My-H9ATL._AC_.jpg"
+                 alt="Brinquedo">
+
+            <h3>Brinquedo Interativo</h3>
+
+            <p class="price">
+
+                R$ 39,90
+
+            </p>
+
+            <button
+                class="add-cart"
+                data-name="Brinquedo Interativo"
+                data-price="39.90">
+
+                Adicionar
+
+            </button>
+
+        </div>
+
+        <div class="product-card">
+
+            <img src="https://m.media-amazon.com/images/I/51SwFyCj4ZL._AC_.jpg"
+                 alt="Peitoral">
+
+            <h3>Peitoral Adaptado</h3>
+
+            <p class="price">
+
+                R$ 59,90
+
+            </p>
+
+            <button
+                class="add-cart"
+                data-name="Peitoral Adaptado"
+                data-price="59.90">
+
+                Adicionar
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="adocao">
+
+    <h2>
+
+        Pets para Adoção
+
+    </h2>
+
+    <div class="adoption-grid">
+
+        <div class="pet-card">
+
+            <img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?q=80&w=600">
+
+            <h3>Mingau</h3>
+
+            <p>
+
+                Gato com deficiência visual
+
+            </p>
+
+            <button>
+
+                Conhecer
+
+            </button>
+
+        </div>
+
+        <div class="pet-card">
+
+            <img src="https://tse4.mm.bing.net/th/id/OIP.qwWLrzHzRX_oKH56jizI3QAAAA?cb=thfc1falcon&w=350&h=300&rs=1&pid=ImgDetMain&o=7&rm=3">
+
+            <h3>Luna</h3>
+
+            <p>
+
+                Cadeirante
+
+            </p>
+
+            <button>
+
+                Conhecer
+
+            </button>
+
+        </div>
+
+        <div class="pet-card">
+
+            <img src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?q=80&w=600">
+
+            <h3>Thor</h3>
+
+            <p>
+
+                Surdez parcial
+
+            </p>
+
+            <button>
+
+                Conhecer
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<aside id="cart-sidebar">
+
+    <div class="cart-header">
+
+        <h2>
+
+            Minha Sacola
+
+        </h2>
+
+        <button id="close-cart">
+
+            ✕
+
+        </button>
+
+    </div>
+
+    <div id="cart-items">
+
+    </div>
+
+    <div class="cart-summary">
+
+        <h3>
+
+            Resumo do Pedido
+
+        </h3>
+
+        <p>
+
+            Total:
+
+            <span id="cart-total">
+
+                R$ 0,00
+
+            </span>
+
+        </p>
+
+        <input
+            type="text"
+            placeholder="Digite seu CEP">
+
+        <input
+            type="text"
+            placeholder="Cupom de desconto">
+
+        <select>
+
+            <option>PIX</option>
+
+            <option>Cartão de Crédito</option>
+
+            <option>Cartão de Débito</option>
+
+            <option>Boleto</option>
+
+            <option>Parcelado</option>
+
+        </select>
+
+        <button class="finish-btn">
+
+            Finalizar Compra
+
+        </button>
+
+    </div>
+
+</aside>
+
+<footer>
+
+    <div>
+
+        <h3>🐾 Gato Gago</h3>
+
+        <p>
+
+            Marketplace pet com foco em adoção inclusiva.
+
+        </p>
+
+    </div>
+
+    <div>
+
+        <h4>Contato</h4>
+
+        <p>(11) 99999-9999</p>
+
+        <p>contato@gatogago.com.br</p>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
